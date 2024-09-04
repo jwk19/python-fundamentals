@@ -8,7 +8,7 @@ class Car:
     year : The year of manufacture.
     """
     
-    def init(self, make, model, year):
+    def __init__(self, make, model, year):
         """
         Initializes the Car object with make, model, and year.
         
